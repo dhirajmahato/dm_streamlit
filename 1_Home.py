@@ -137,7 +137,7 @@ if selected == "Experience":
 
             st.write(
                 """
-                visit Projects page for more details
+                visit Projects page from the side panel for more details
                 """
             )
             
