@@ -39,6 +39,7 @@ spot_img=Image.open('images/Spotify.png')
 link_img=Image.open('images/Linkedin.png')
 
 indus_imgs= ['images/wipro.png', 'images/Tata_Steel_Logo.svg']
+moveinsync_img=Image.open('images/mis.png')
 wipro_img=Image.open('images/wipro.png')
 Tata_img=Image.open('images/Tata_Steel_Logo.svg')
 
@@ -146,11 +147,13 @@ if selected == "Experience":
             st.subheader("Industry")
             
             with st.container():
-                left, right = st.columns((1,1))
+                left, mid, right = st.columns((1,1,1))
                 with left:
+                    st.image(moveinsync_img, caption='', width=150)
+                with mid:
                     st.image(wipro_img, caption='', width=150)
                 with right:
-                     st.image(Tata_img, caption='', width=250)
+                    st.image(Tata_img, caption='', width=250)
             
             
             st.write(
