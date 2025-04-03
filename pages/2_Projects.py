@@ -56,8 +56,8 @@ with st.container():
         st.subheader("Startupindia.gov.in ETL+EDA project")
         st.write("*Indian registered startups under Startup India Campaign*")
         st.markdown("""
-            - Utilised snscrape to scrape tweets from top blockchain websites such as CoinGecko and CoinMarketCap
-            - Built webscraper using BeautifulSoup4 to scrape content from fintech news websites such as https://blockchain.news
+            - Scraped startup data from startup.gov.in having all its categories and segmentation.
+            - Used shapefiles to visualise on india Map.
             """)
         mention(label="Github Repo", icon="github", url="https://github.com/dhirajmahato/webscrapping",)
     with image_column:
