@@ -67,7 +67,7 @@ with st.container():
                     st.image(heat_img)
                 with right:
                      st.image(categories_img)
-#--------------------project 1--------------------------------
+#--------------------project 2--------------------------------
 with st.container():
     text_column, image_column = st.columns((3,1))
     with text_column:
@@ -79,6 +79,20 @@ with st.container():
             """)
         mention(label="Streamlit App", icon="streamlit", url="https://huggingface.co/spaces/harrychangjr/tiktok_analytics",)
         mention(label="Github Repo", icon="github", url="https://github.com/dhirajmahato/webscrapping",)
+    with image_column:
+        st.image(link_img)
+#--------------------project 3--------------------------------
+with st.container():
+    text_column, image_column = st.columns((3,1))
+    with text_column:
+        st.subheader("Interactive Geoheatmap")
+        st.write("*helps you create heatmap from geolocations*")
+        st.markdown("""
+            - use folium and openstreetmaps to generate heatmap
+            - geocodes has to be in 2 columns latitude and longitude in excel file
+            """)
+        mention(label="Streamlit App", icon="streamlit", url="https://geoheatmap.streamlit.app",)
+        mention(label="Github Repo", icon="github", url="https://github.com/dhirajmahato/heatmap_streamlit",)
     with image_column:
         st.image(link_img)
 
