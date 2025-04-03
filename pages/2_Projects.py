@@ -12,12 +12,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"   # use'auto' for first visit
 )
 
-#----Resources---
+#----Resources-----------------------------------------
 startup_prj_img =Image.open('images/startup-india.jpg')
 heat_img = Image.open('images/HeatMap.png')
 categories_img = Image.open('images/Top_Categories.png')
 images=[heat_img,categories_img]
-
+geoheat_img=Image.open('images/geoheatmap.jpeg')
 link_img=Image.open('images/Linkedin.png')
 #---------------------------------------------------------------
 def add_bg_from_local(image_file):
@@ -88,13 +88,13 @@ with st.container():
         st.subheader("Interactive Geoheatmap")
         st.write("*helps you create heatmap from geolocations*")
         st.markdown("""
-            - use folium and openstreetmaps to generate heatmap
+            - used folium and openstreetmaps to generate heatmap.
             - geocodes has to be in 2 columns latitude and longitude in excel file
             """)
         mention(label="Streamlit App", icon="streamlit", url="https://geoheatmap.streamlit.app",)
         mention(label="Github Repo", icon="github", url="https://github.com/dhirajmahato/heatmap_streamlit",)
     with image_column:
-        st.image(link_img)
+        st.image(geoheat_img)
 
 
 # adding some styles from local machine via function defined above
