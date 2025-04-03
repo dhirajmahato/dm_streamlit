@@ -71,13 +71,12 @@ with st.container():
 with st.container():
     text_column, image_column = st.columns((3,1))
     with text_column:
-        st.subheader("Linkedin Job Data Analysis")
+        st.subheader("Linkedin Job Requiremnet Data Analysis")
         st.write("*Scraping Job posting and required skillsets respectively*")
         st.markdown("""
-            - Utilised snscrape to scrape tweets from top blockchain websites such as CoinGecko and CoinMarketCap
-            - Built webscraper using BeautifulSoup4 to scrape content from fintech news websites such as https://blockchain.news
+            - Built webscraper using BeautifulSoup4 to scrape content from Linkedin websites pertaining to a particular job profile.
+            - listing key skills at one place.
             """)
-        mention(label="Streamlit App", icon="streamlit", url="https://huggingface.co/spaces/harrychangjr/tiktok_analytics",)
         mention(label="Github Repo", icon="github", url="https://github.com/dhirajmahato/webscrapping",)
     with image_column:
         st.image(link_img)
