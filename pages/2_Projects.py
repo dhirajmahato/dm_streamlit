@@ -88,7 +88,8 @@ with st.container():
         st.write("*helps you create heatmap from geolocations*")
         st.markdown("""
             - used folium and openstreetmaps to generate heatmap.
-            - geocodes has to be in 2 columns latitude and longitude in excel file
+            - additionally, Metro stations are marked.
+            - User input geocordinate marker with distance circle @ 5, 10, 15km
             """)
         mention(label="Streamlit App", icon="streamlit", url="https://geoheatmap.streamlit.app",)
         mention(label="Github Repo", icon="github", url="https://github.com/dhirajmahato/heatmap_streamlit",)
