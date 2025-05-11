@@ -55,7 +55,7 @@ def local_css(file_name):    #import local machine css file
 
 # --------------------------------Home_Page content--------------------------------------------
 # Your Streamlit app content goes here
-st.markdown("<h2 style='text-align: center;'>DHIRAJ MAHATO</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>DHIRAJ K MAHATO</h2>", unsafe_allow_html=True)
 
 selected = option_menu(
             menu_title=None,  # required
@@ -111,7 +111,7 @@ if selected == "Experience":
     with st.container():
         st.write(
                 """
-🌍 **Global Impact**: My journey traverses industries, from finance to healthcare to e-commerce, leaving a trail of data-driven successes.
+🌍 **Global Impact**: My journey traverses industries, from finance to mobility to e-commerce, leaving a trail of data-driven successes.
                 """)
         col1, col2 = st.columns((1,1))
         with col1:
@@ -126,14 +126,14 @@ if selected == "Experience":
                      st.image(iit_img, caption='', width=100)
 
 
-            with st.container(): # second row of projects
-                left, mid, right = st.columns((1,1,1))
-                with left:
-                    st.image(link_img, caption='', width=150)
-                with mid:
-                    st.image(spot_img, caption='', width=150)
-                with right:
-                     st.image(iit_img, caption='', width=100)
+            # with st.container(): # second row of projects
+            #     left, mid, right = st.columns((1,1,1))
+            #     with left:
+            #         st.image(link_img, caption='', width=150)
+            #     with mid:
+            #         st.image(spot_img, caption='', width=150)
+            #     with right:
+            #          st.image(iit_img, caption='', width=100)
 
 
             st.write(
@@ -190,7 +190,7 @@ if selected == "Data Stack":
 | Libraries | Pandas, Numpy, MatplotLib, Seaborn, Geopandas, Scikit-learn|
 | Databases | MySQL, MongoDB |
 | Cloud Platfoms | AWS EC2, S3 etc |
-| Misc  | Spark, Docker, Airflow, Kafka, Git/github |
+| Others  | Spark, Docker, Airflow, Kafka, Git/github |
                 
                 """
             )
