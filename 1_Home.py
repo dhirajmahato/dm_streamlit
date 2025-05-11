@@ -86,7 +86,7 @@ if selected == "About Me":
                 st.write("👋🏻 Hi, I'm a data enthusiast, passionate about simplifying complex challenges with data-driven solutions, based in Bengaluru, India.")
                 st.write("👨🏼‍💻 **Interest Areas**: Data Visualization, Market Basket Analysis, Recommendation Systems, Natural Language Processing")
                 st.write("""💭 In my *data odyssey*, I have gained expertise in:
-- Leveraging emerging technologies like **LLMs** and **serverless computing** to optimize data pipelines and infrastructure for maximum efficiency.
+- Leveraging emerging technologies like **LLMs** and **serverless computing**.
 - Crafting data-driven models unlocking hidden patterns and trends.""")
                 st.write("🏋🏻 In addition, I like to exercise in the gym, listening music and... enjoy cooking & eating good food in my free time!")
                 st.write ("")
