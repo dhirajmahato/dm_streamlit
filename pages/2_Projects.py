@@ -87,8 +87,8 @@ with st.container():
         st.subheader("Interactive Geoheatmap")
         st.write("*helps you create heatmap from geolocations*")
         st.markdown("""
-            - used folium and openstreetmaps to generate heatmap.
-            - additionally, Metro stations are marked.
+            - Used folium and openstreetmaps to generate heatmap.
+            - Additionally, Metro stations are marked.
             - User input geocordinate marker with distance circle @ 5, 10, 15km
             """)
         mention(label="Streamlit App", icon="streamlit", url="https://geoheatmap.streamlit.app",)
